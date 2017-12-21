@@ -189,151 +189,7 @@ section {
   color: #fff
 }
 
-/* Tamaño s */
-@media screen and (max-width: 600px){
-  #img-body{
-    background-image: url(../images/personsm.jpg)
-  }
-  #grande{
-    font-size: 20px;
-    font-family: 'Hero-Light';
-    color: #868c96;
-    padding-top: 35px;
-  }
-  #numero{
-    font-family: 'league-gothic';
-    font-size: 30px;
-    color: #d5d5d5;
-  }
-  #fecha{
-    font-family: 'maven-pro';
-    font-size: 9px;
-    color: #868c96;
-  }
-  #p{
-    padding-top: 325px;
-    padding-left: 125px;
-  }
-  #p2{
-    padding-left: 150px;
-  }
-}
-/* Tamaño m */
-@media screen and (max-width: 991px) and (min-width: 601px){
-  #img-body{
-    background-image: url(../images/personsm.jpg)
-  }
-  #grande{
-    font-size: 55px;
-    font-family: 'Hero-Light';
-    color: #868c96;
-    padding-top: 35px;
-  }
-  #numero{
-    font-family: 'league-gothic';
-    font-size: 100px;
-    color: #d5d5d5;
-  }
-  #fecha{
-    font-family: 'maven-pro';
-    font-size: 20px;
-    color: #868c96;
-  }
-  #p{
-    padding-top: 500px;
-    padding-left: 150px;
-  }
-  #p2{
-    padding-left: 280px;
-  }
-}
-/* Tamaño l */
-@media screen and (max-width: 1199px) and (min-width: 992px){
-  #img-body{
-    background-image: url(../images/person.jpg)
-  }
-  #grande{
-    font-size: 55px;
-    font-family: 'Hero-Light';
-    color: #868c96;
-    padding-top: 35px;
-  }
-  #numero{
-    font-family: 'league-gothic';
-    font-size: 100px;
-    color: #d5d5d5;
-  }
-  #fecha{
-    font-family: 'maven-pro';
-    font-size: 20px;
-    color: #868c96;
-  }
-  #p{
-    padding-top: 500px;
-    padding-left: 150px;
-  }
-  #p2{
-    padding-left: 280px;
-  }
-}
-/* Tamaño l2 */
-@media screen and (max-width: 1366px) and (min-width: 1199px){
-  #img-body{
-    background-image: url(../images/person.jpg)
-  }
-  #grande{
-    font-size: 55px;
-    font-family: 'Hero-Light';
-    color: #868c96;
-    padding-top: 35px;
-  }
-  #numero{
-    font-family: 'league-gothic';
-    font-size: 100px;
-    color: #d5d5d5;
-  }
-  #fecha{
-    font-family: 'maven-pro';
-    font-size: 20px;
-    color: #868c96;
-  }
-  #p{
-    padding-top: 550px;
-    padding-left: 150px;
-  }
-  #p2{
-    padding-left: 280px;
-  }
-}
-/* Tamaño xl */
-@media screen and (min-width: 1367px){
-  #img-body{
-    background-image: url(../images/person.jpg)
-  }
-  #grande{
-    font-size: 55px;
-    font-family: 'Hero-Light';
-    color: #868c96;
-    padding-top: 35px;
-  }
-  #numero{
-    font-family: 'league-gothic';
-    font-size: 100px;
-    color: #d5d5d5;
-  }
-  #fecha{
-    font-family: 'maven-pro';
-    font-size: 20px;
-    color: #868c96;
-  }
-  #p{
-    padding-top: 800px;
-    padding-left: 150px;
-  }
-  #p2{
-    padding-left: 280px;
-  }
-}
+
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   -webkit-transition-property: opacity;
@@ -1198,4 +1054,174 @@ ul.address {
 
 /*Presets*/
 
-
+/* Tamaño s */
+@media screen and (max-width: 600px){
+  #img-body{
+    background-image: url(../images/personsm.jpg)
+  }
+  #grande{
+    font-size: 20px;
+    font-family: 'Hero-Light';
+    color: #868c96;
+    padding-top: 35px;
+  }
+  #numero{
+    font-family: 'league-gothic';
+    font-size: 30px;
+    color: #d5d5d5;
+  }
+  #fecha{
+    font-family: 'maven-pro';
+    font-size: 9px;
+    color: #868c96;
+  }
+  #p{
+    padding-top: 325px;
+    padding-left: 65px;
+  }
+  #p2{
+    padding-left: 150px;
+  }
+  #pronto{
+    font-size: 8px;
+position: absolute;
+margin-top: -3px;
+line-height: 10px;
+  }
+}
+/* Tamaño m */
+@media screen and (max-width: 991px) and (min-width: 601px){
+  #img-body{
+    background-image: url(../images/personsm.jpg)
+  }
+  #grande{
+    font-size: 40px;
+    font-family: 'Hero-Light';
+    color: #868c96;
+    padding-top: 35px;
+  }
+  #numero{
+    font-family: 'league-gothic';
+    font-size: 70px;
+    color: #d5d5d5;
+  }
+  #fecha{
+    font-family: 'maven-pro';
+    font-size: 20px;
+    color: #868c96;
+  }
+  #p{
+    padding-top: 500px;
+    padding-left: 150px;
+  }
+  #p2{
+    padding-left: 280px;
+  }
+  #pronto{
+    font-size: 15px;
+    position: absolute;
+    margin-top: -18px;
+  }
+}
+/* Tamaño l */
+@media screen and (max-width: 1199px) and (min-width: 992px){
+  #img-body{
+    background-image: url(../images/person.jpg)
+  }
+  #grande{
+    font-size: 40px;
+    font-family: 'Hero-Light';
+    color: #868c96;
+    padding-top: 35px;
+  }
+  #numero{
+    font-family: 'league-gothic';
+    font-size: 60px;
+    color: #d5d5d5;
+  }
+  #fecha{
+    font-family: 'maven-pro';
+    font-size: 20px;
+    color: #868c96;
+  }
+  #p{
+    padding-top: 85%;
+    padding-left: 110px;
+  }
+  #p2{
+    padding-left: 280px;
+  }
+  #pronto{
+    font-size: 15px;
+    position: absolute;
+    margin-top: -18px;
+  }
+}
+/* Tamaño l2 */
+@media screen and (max-width: 1366px) and (min-width: 1199px){
+  #img-body{
+    background-image: url(../images/person.jpg)
+  }
+  #grande{
+    font-size: 55px;
+    font-family: 'Hero-Light';
+    color: #868c96;
+    padding-top: 35px;
+  }
+  #numero{
+    font-family: 'league-gothic';
+    font-size: 90px;
+    color: #d5d5d5;
+  }
+  #fecha{
+    font-family: 'maven-pro';
+    font-size: 20px;
+    color: #868c96;
+  }
+  #p{
+    padding-top: 85%;
+    padding-left: 115px;
+  }
+  #p2{
+    padding-left: 280px;
+  }
+  #pronto{
+    font-size: 20px;
+    position: absolute;
+    margin-top: -18px;
+  }
+}
+/* Tamaño xl */
+@media screen and (min-width: 1367px){
+  #img-body{
+    background-image: url(../images/person.jpg)
+  }
+  #grande{
+    font-size: 55px;
+    font-family: 'Hero-Light';
+    color: #868c96;
+    padding-top: 35px;
+  }
+  #numero{
+    font-family: 'league-gothic';
+    font-size: 100px;
+    color: #d5d5d5;
+  }
+  #fecha{
+    font-family: 'maven-pro';
+    font-size: 20px;
+    color: #868c96;
+  }
+  #p{
+    padding-top: 80%;
+    padding-left: 150px;
+  }
+  #p2{
+    padding-left: 280px;
+  }
+  #pronto{
+    font-size: 25px;
+    position: absolute;
+    margin-top: -18px;
+  }
+}
