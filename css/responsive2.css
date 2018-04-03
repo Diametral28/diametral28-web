@@ -1,0 +1,205 @@
+/*Presets*/
+
+/* Tamaño s */
+@media screen and (max-width: 600px){
+  #img-body{
+    background-image: url(../images/manom.jpg)
+  }
+  #grande{
+    font-size: 20px;
+    font-family: 'Hero-Light';
+    color: #868c96;
+    padding-top: 35px;
+  }
+  #numero{
+    font-family: 'league-gothic';
+    font-size: 10px;
+    color: #d5d5d5;
+  }
+  #fecha{
+    font-family: 'maven-pro';
+    font-size: 20px;
+    color: #868c96;
+  }
+  #p{
+    padding-top: 60%;
+  }
+  #p2{
+    padding-right: 35%;
+    text-align: right;
+    margin-top: -40px;
+  }
+  #pronto{
+    font-size: 10px;
+    color: #fff;
+    /*float: left;*/
+    /*position: absolute;
+    margin-top: -18px;*/
+  }
+  #img{
+    height: 50px
+  }
+}
+/* Tamaño m */
+@media screen and (max-width: 991px) and (min-width: 601px){
+  #img-body{
+    background-image: url(../images/mano.jpg)
+  }
+  #grande{
+    font-size: 40px;
+    font-family: 'Hero-Light';
+    color: #868c96;
+    padding-top: 35px;
+  }
+  #numero{
+    font-family: 'league-gothic';
+    font-size: 30px;
+    color: #d5d5d5;
+  }
+  #fecha{
+    font-family: 'maven-pro';
+    font-size: 20px;
+    color: #868c96;
+  }
+  #p{
+    padding-top: 20%;
+  }
+  #p2{
+    padding-right: 50%;
+    text-align: right;
+    margin-top: -30px;
+  }
+  #pronto{
+    font-size: 10px;
+    color: #fff;
+    /*float: left;*/
+    /*position: absolute;
+    margin-top: -18px;*/
+  }
+    #img{
+    height: 90px
+  }
+}
+/* Tamaño l */
+@media screen and (max-width: 1199px) and (min-width: 992px){
+  #img-body{
+    background-image: url(../images/mano.jpg)
+  }
+  #grande{
+    font-size: 40px;
+    font-family: 'Hero-Light';
+    color: #868c96;
+    padding-top: 35px;
+  }
+  #numero{
+    font-family: 'league-gothic';
+    font-size: 18px;
+    color: #d5d5d5;
+  }
+  #fecha{
+    font-family: 'maven-pro';
+    font-size: 20px;
+    color: #868c96;
+  }
+  #p{
+    padding-top: 20%;
+  }
+  #p2{
+    padding-right: 45%;
+    text-align: right;
+    margin-top: -40px;
+  }
+  #pronto{
+    font-size: 15px;
+    color: #fff;
+    /*float: left;*/
+    /*position: absolute;
+    margin-top: -18px;*/
+  }
+  #img{
+    height: 100px
+  }
+}
+/* Tamaño l2 */
+@media screen and (max-width: 1366px) and (min-width: 1199px){
+  #img-body{
+    background-image: url(../images/mano.jpg)
+  }
+  #grande{
+    font-size: 55px;
+    font-family: 'Hero-Light';
+    color: #868c96;
+    padding-top: 35px;
+  }
+  #numero{
+    font-family: 'league-gothic';
+    font-size: 25px;
+    color: #d5d5d5;
+  }
+  #fecha{
+    font-family: 'maven-pro';
+    font-size: 20px;
+    color: #868c96;
+  }
+  #p{
+    padding-top: 20%;
+  }
+  #p2{
+    padding-right: 45%;
+    text-align: right;
+    margin-top: -40px;
+  }
+  #pronto{
+    font-size: 20px;
+    color: #fff;
+    /*float: left;*/
+    /*position: absolute;
+    margin-top: -18px;*/
+  }
+  #img{
+    height: 130px
+  }
+}
+/* Tamaño xl */
+@media screen and (min-width: 1367px){
+  #img-body{
+    background-image: url(../images/mano.jpg)
+  }
+  #grande{
+    font-size: 55px;
+    font-family: 'Hero-Light';
+    color: #868c96;
+    padding-top: 35px;
+  }
+  #numero{
+    font-family: 'league-gothic';
+    font-size: 40px;
+    color: #d5d5d5;
+  }
+  #fecha{
+    font-family: 'maven-pro';
+    font-size: 20px;
+    color: #868c96;
+  }
+  #p{
+    padding-top: 20%;
+    /*padding-right: 23%;
+    align-content: right;
+    text-align: right;*/
+  }
+  #p2{
+    padding-right: 45%;
+    text-align: right;
+    margin-top: -20px;
+  }
+  #pronto{
+    font-size: 30px;
+    color: #fff;
+    /*float: left;*/
+    /*position: absolute;
+    margin-top: -18px;*/
+  }
+  #img{
+    height: 150px
+  }
+}
